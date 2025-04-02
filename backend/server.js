@@ -10,11 +10,9 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
-  'https://todolist-aswinbijukumar.vercel.app', 
-  'https://todolist-git-main-aswinbijukumar.vercel.app',
-  'https://todolist-aswinbijukumar.vercel.app',
-  'https://todolist-three-nu.vercel.app',
-  'https://todolist-aswinbijukumar.vercel.app'
+  'https://todolist-one-swart.vercel.app', 
+  'https://todolistab.vercel.app',
+  
 ];
 
 app.use(cors({
