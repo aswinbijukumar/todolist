@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_URL || 'https://todolist-backend-2kw1.onrender.com';
+const baseURL = import.meta.env.VITE_API_URL || 'https://todolist-backend-0fky.onrender.com';
 
 const instance = axios.create({
   baseURL,
